@@ -1,0 +1,34 @@
+/* Welcome Page Styles */
+#welcomePage {
+    background: #000;
+    color: #ffff; 
+ }
+
+ #welcomeVideo {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    min-height: 500px;      
+}
+
+#welcomeVideo video {
+    max-width: 80%; 
+    height: auto;
+}
+
+/* Games Page Styles */
+#gamesPage {
+    background-image: url('images/pixelbackground2.png');
+    background-repeat: repeat;
+    background-size: default; 
+    color: #ffff; 
+}
+
+#allGames img{
+    display: block;
+    margin: 0 auto;
+    max-width: 2000px;
+    width: 100%;
+    height: auto;
+}
+
